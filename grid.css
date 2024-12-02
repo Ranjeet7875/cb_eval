@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap:200px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-about{
+    display: flex;
+    gap:20px;
+    float: left;
+}
+.nav-about>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.img-div{
+    margin-top: 50px;
+    background-image: url(https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/Homepage_Banner__1_ycCzHWB.jpg?format=webp&w=1500&dpr=1.3);
+    width: 100%;
+    height: 600px;
+    background-size: contain;
+
+    background-repeat: no-repeat;
+}
+.blog-start>h2{
+    padding-left: 60px;
+}
+.blog{
+    margin: 20px;
+    display: flex;
+    gap:30px;
+    justify-content: center;
+}
+.blog-about{
+    height: 350px;
+   display: flex;
+   flex-direction: column;
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+.blog-about>img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+.blog-about>p,.blog-about>h3{
+    margin: 5px;
+    padding-left: 10px;
+}
+.contact{
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    display: block;
+}
+input{
+    display: inline-block;
+}
+.contact-form{
+    width: 400PX;
+    height: 400px;
+}
+.requires{
+    display: flex;
+    gap: 20px;
+}
+.input>l{
+    display: flex;
+
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(194, 156, 207);
+    align-items: center;
+}
+.social-meida{
+    display: flex;
+    gap: 10px;
+    flex-direction: end;
+}
+.social-meida>p{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    width: 200px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.sidebar h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.product-list li{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+
+}
+.product-list input[type="checkbox"]{
+    margin-right: 10px;
+}
+.product-list a{
+    color: #007BFF;
+    text-decoration: none;
+
+    font-size: 14px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+
+}
+.card>img{
+    width: 100%;;;
+}
+.card>p{
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.product-card{
+    display: flex;
+    gap: 20px;
+}
